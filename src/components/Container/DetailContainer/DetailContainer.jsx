@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom';
 
 const DetailContainer = ({ characters }) => {
   const { id } = useParams();
-  const character = characters.filter(char => char._id ===  id);
+  const [character] = characters.filter(char => char._id === id);
   return (
     <>
       <Header />
@@ -18,3 +18,5 @@ const DetailContainer = ({ characters }) => {
 DetailContainer.propTypes = {
   characters: PropTypes.array.isRequired
 };
+
+export default DetailContainer;

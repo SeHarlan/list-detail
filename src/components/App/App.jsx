@@ -18,6 +18,7 @@ export default function App() {
   const changePage = (direction) => {
     setPage((prevPage) => prevPage + direction);
   };
+  
   return (
     <Router>
       <Switch>

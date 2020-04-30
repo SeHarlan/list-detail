@@ -13,8 +13,10 @@ exports[`App component renders App 1`] = `
     <Route
       path="/"
     >
-      <List
+      <ListContainer
+        changePage={[Function]}
         characters={Array []}
+        page={1}
       />
     </Route>
   </Switch>

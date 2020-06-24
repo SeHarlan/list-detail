@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`detail component renders detail 1`] = `
+<section>
+  <h2>
+    aang
+  </h2>
+  <figure>
+    <img
+      alt="aang"
+      src="url.com"
+    />
+    <figcaption>
+      test aff
+    </figcaption>
+  </figure>
+</section>
+`;
